@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.main-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player-div{
+    width: 40%;
+    height: 50%;
+    background-color: #555;
+    border-radius: 15px;
+}
+
+.header-div h2{
+    text-align: center;
+}
+
+.header-div select{
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    position: relative;
+    left: 85%;
+    bottom: 50px;
+    border-radius: 5px;
+}
+
+.name-div{
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.name-div input{
+    height: 10%;
+}
