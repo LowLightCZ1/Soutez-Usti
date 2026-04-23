@@ -4,14 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Balut</title>
+    <link rel="stylesheet" href="../assets/css/game.css">
 </head>
 <body>
-
-
-
-
-
-    
+    <header>
+        <div class="round" id="roundCount">
+            <p>Kolo: </p>
+            <input type="text" name="round" id="roundNum" value="1">
+        </div>
+        <div class="info" id="categInfo">
+            <button class="info-btn" id="infoBtn"></button>
+        </div>
+    </header>
+    <div class="game-container" id="gameCont">
+        <div class="game-table" id="gameTable">
+            <img src="../assets/imgs/cobe-1.png" alt="cube 1">
+            <img src="../assets/imgs/cobe-1.png" alt="cube 1">
+            <img src="../assets/imgs/cobe-1.png" alt="cube 1">
+            <img src="../assets/imgs/cobe-1.png" alt="cube 1">
+            <img src="../assets/imgs/cobe-1.png" alt="cube 1">
+            <img src="../assets/imgs/cobe-1.png" alt="cube 1">
+        </div>
+        <div id="infoTable" class="closed">
+            <h2>Figura</h2>
+            <p>Jméno</p>
+            <ul>
+                <li>Jedničky</li>
+                <li>Dvojky</li>
+                <li>Trojky</li>
+                <li>Čtyřky</li>
+                <li>Pětky</li>
+                <li>Šestky</li>
+                <li>Malé</li>
+                <li>Velké</li>
+                <li>Sudé</li>
+                <li>Liché</li>
+                <li>Dvoják</li>
+                <li>Toják</li>
+                <li>Generál</li>
+                <li>Pyramida</li>
+                <li>Postupka</li>
+            </ul>
+        </div>
+    </div>
     <script src="../assets/JavaScript/script.js"></script>
 </body>
 </html>
