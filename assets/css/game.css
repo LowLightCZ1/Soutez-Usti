@@ -57,19 +57,25 @@ header{
 /* ------------*/
 
 .game-table{
-    width: 600px;
+    width: 500px;
     height: 500px;
     background-color: #fff;
     position: fixed;
     top: 25%;
-    left: 30%;
-    display: grid;
-    grid-template-columns: repeat(3, 0.5fr );
-    grid-template-rows: repeat(3, 0.5fr );
+    left: 32%;
     align-items: center;
     justify-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
+.cube-div{
+    width: 150px;
+    height: 150px;
+    background-color: #458;
+}
 
 #infoTable{
     width: 30%;

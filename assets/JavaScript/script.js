@@ -1,5 +1,4 @@
-const names = localStorage.getItem("nameValue");
-console.log(names)
+
 
 const cubeMap = {
     "cube1": "../assets/imgs/cobe-1.png",
@@ -9,7 +8,6 @@ const cubeMap = {
     "cube5": "../assets/imgs/cobe-5.png",
     "cube6": "../assets/imgs/cobe-6.png"
 }
-
 
 
 
